@@ -1,0 +1,23 @@
+{
+	"extends": "@vue/tsconfig/tsconfig.web.json",
+	"include": [
+		"env.d.ts",
+		"src/**/*",
+		"src/**/*.vue",
+		"auto-import.d.ts",
+		"components.d.ts"
+	],
+	"compilerOptions": {
+		// "types": ["element-plus/global"],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+
+	"references": [
+		{
+			"path": "./tsconfig.config.json"
+		}
+	]
+}
