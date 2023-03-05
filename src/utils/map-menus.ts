@@ -39,6 +39,12 @@ interface Breadcrums {
 	name: string
 	path?: string
 }
+/**
+ * 根据当前路由生成面包屑菜单
+ * @param path 当前的路由path
+ * @param userMenus 菜单列表
+ * @returns 面包屑菜单的数组
+ */
 export function mapPathToBreadcrums(path: string, userMenus: any[]) {
 	const breadcrumbs: Breadcrums[] = []
 	for (const menu of userMenus) {
