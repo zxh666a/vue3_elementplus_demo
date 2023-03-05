@@ -1,6 +1,6 @@
 # vue3-demo
 
-一个vue3 + Typescript的练习项目
+一个vue3 + Typescript + elementplus的练习项目
 ## Project Setup
 
 ```sh
